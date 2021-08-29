@@ -3,12 +3,12 @@
 }
 
 a:link, a:visited, .nav-link {
-  color: #1a4884;
+  color: #000000;
   text-decoration: none;
 }
 
 a:hover, a:active {
-  color: #0351b6;
+  color: #e30d0d;
 }
 
 .btn.btn-primary {
@@ -16,22 +16,16 @@ a:hover, a:active {
 }
 
 header {
-  background-color: rgb(228, 241, 241);
+  background-color: rgb(11, 223, 223);
   margin: 0 0 20px;
   padding: 20px 10%;
   width: 100%;
 }
 
 .site-title {
-  font-size: 350%;
-  text-shadow: 3px 3px 2px lightgrey;
+  font-size: 300%;
   margin-bottom: 0!important;
   line-height: 1;
-}
-
-.site-subtitle {
-  font-size: 90%;
-  text-align: right;
 }
 
 content {

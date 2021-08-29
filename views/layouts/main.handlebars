@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Tech Blog</title>
+  <title>MVC Tech Blog</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="/stylesheets/style.css">
@@ -18,9 +18,9 @@
           <ul class="nav flex-row-reverse">
             <li class="nav-item">
               {{#if loggedIn}}
-              <button id="logout" class="btn btn-link nav-link">Sign Out</button>
+              <button id="logout" class="btn btn-link nav-link">Log Out</button>
               {{else}}
-              <a class="nav-link" href="/login{{#if nextUrl}}?_next={{nextUrl}}{{/if}}">Sign In</a>
+              <a class="nav-link" href="/login{{#if nextUrl}}?_next={{nextUrl}}{{/if}}">Log In</a>
               {{/if}}
             </li>
             <li class="nav-item">
@@ -32,7 +32,6 @@
           </ul>
           <div class="d-inline-block">
             <h1 class="card-title site-title">The Tech Blog</h1>
-            <p class="site-subtitle">The blog about technology.</p>
           </div>
         </div>
       </header>

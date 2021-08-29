@@ -4,6 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "seeds": "node seeds/index.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,9 +24,10 @@
     "express-handlebars": "^3.1.0",
     "express-session": "^1.17.0",
     "handlebars": "^4.7.3",
-    "mysql2": "^2.1.0",
+    "mysql2": "^2.3.0",
+    "node": "^16.6.1",
     "nodemon": "^2.0.7",
-    "sequelize": "^5.21.5"
+    "sequelize": "^5.22.4"
   },
   "bugs": {
     "url": "https://github.com/evancastillo/mvc-tech-blog/issues"
