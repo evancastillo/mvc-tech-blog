@@ -1,0 +1,56 @@
+.hidden {
+  display: none;
+}
+
+a:link, a:visited, .nav-link {
+  color: #1a4884;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #0351b6;
+}
+
+.btn.btn-primary {
+  color: white;
+}
+
+header {
+  background-color: rgb(228, 241, 241);
+  margin: 0 0 20px;
+  padding: 20px 10%;
+  width: 100%;
+}
+
+.site-title {
+  font-size: 350%;
+  text-shadow: 3px 3px 2px lightgrey;
+  margin-bottom: 0!important;
+  line-height: 1;
+}
+
+.site-subtitle {
+  font-size: 90%;
+  text-align: right;
+}
+
+content {
+  padding: 0 10%;
+  width: 100%;
+}
+
+.sign-in, .sign-up {
+  width: 18rem;
+}
+
+.post-byline {
+  font-size: 80%;
+}
+
+.comment-byline {
+  font-size: 90%;
+}
+
+.department {
+  font-weight: bold;
+}
