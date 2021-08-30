@@ -16,10 +16,10 @@ On the home page, you can click on other user's posts where you can reply to the
 
 ## Installing
 
-clone the repo: https://github.com/evancastillo/mvc-tech-blog
-add your MYSQL info to the .env file
-create the database in MYSQL: tech_blog_db
-run "npm start"
+* clone the repo: https://github.com/evancastillo/mvc-tech-blog
+* add your MYSQL info to the .env file
+* create the database in MYSQL: tech_blog_db
+* run "npm start"
 
 
 <img src="./public/screenshots/site.png" />
